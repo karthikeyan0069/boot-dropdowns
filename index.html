@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Dropdown Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <!-- JS (IMPORTANT for dropdown) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body class="bg-light">
+
+<div class="container mt-4">
+
+  <h2 class="text-center mb-4">⬇️ Bootstrap Dropdown Project</h2>
+
+  <!-- 1. Basic Dropdown -->
+  <h4>1. Basic Dropdown</h4>
+  <div class="dropdown mb-4">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Dropdown Button
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Item 1</a>
+      <a class="dropdown-item" href="#">Item 2</a>
+      <a class="dropdown-item" href="#">Item 3</a>
+    </div>
+  </div>
+
+  <!-- 2. Header + Divider -->
+  <h4>2. Header & Divider</h4>
+  <div class="dropdown mb-4">
+    <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+      With Header
+    </button>
+    <div class="dropdown-menu">
+      <div class="dropdown-header">Category 1</div>
+      <a class="dropdown-item" href="#">Option 1</a>
+      <a class="dropdown-item" href="#">Option 2</a>
+      <div class="dropdown-divider"></div>
+      <div class="dropdown-header">Category 2</div>
+      <a class="dropdown-item" href="#">Option 3</a>
+    </div>
+  </div>
+
+  <!-- 3. Active & Disabled -->
+  <h4>3. Active & Disabled</h4>
+  <div class="dropdown mb-4">
+    <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">
+      Status Items
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item active" href="#">Active Item</a>
+      <a class="dropdown-item" href="#">Normal Item</a>
+      <a class="dropdown-item disabled" href="#">Disabled Item</a>
+    </div>
+  </div>
+
+  <!-- 4. Text inside dropdown -->
+  <h4>4. Dropdown Text</h4>
+  <div class="dropdown mb-4">
+    <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+      Text Example
+    </button>
+    <div class="dropdown-menu">
+      <span class="dropdown-item-text">Just text here</span>
+      <a class="dropdown-item-text" href="#">Styled text link</a>
+    </div>
+  </div>
+
+  <!-- 5. Dropup -->
+  <h4>5. Dropup</h4>
+  <div class="dropup mb-4">
+    <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+      Dropup
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Top 1</a>
+      <a class="dropdown-item" href="#">Top 2</a>
+    </div>
+  </div>
+
+  <!-- 6. Dropright -->
+  <h4>6. Dropright</h4>
+  <div class="dropdown dropright mb-4">
+    <button class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+      Right
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Right 1</a>
+      <a class="dropdown-item" href="#">Right 2</a>
+    </div>
+  </div>
+
+  <!-- 7. Dropleft -->
+  <h4>7. Dropleft</h4>
+  <div class="dropdown dropleft mb-4">
+    <button class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
+      Left
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Left 1</a>
+      <a class="dropdown-item" href="#">Left 2</a>
+    </div>
+  </div>
+
+  <!-- 8. Right Aligned Menu -->
+  <h4>8. Right Aligned Menu</h4>
+  <div class="dropdown mb-4">
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      Align Right
+    </button>
+    <div class="dropdown-menu dropdown-menu-right">
+      <a class="dropdown-item" href="#">Right 1</a>
+      <a class="dropdown-item" href="#">Right 2</a>
+    </div>
+  </div>
+
+  <!-- 9. Button Group with Dropdown -->
+  <h4>9. Button Group</h4>
+  <div class="btn-group mb-4">
+    <button class="btn btn-primary">Apple</button>
+    <button class="btn btn-primary">Samsung</button>
+    <div class="btn-group">
+      <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        Sony
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Tablet</a>
+        <a class="dropdown-item" href="#">Mobile</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. Split Button -->
+  <h4>10. Split Button Dropdown</h4>
+  <div class="btn-group mb-4">
+    <button class="btn btn-success">Action</button>
+    <button class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"></button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Option 1</a>
+      <a class="dropdown-item" href="#">Option 2</a>
+    </div>
+  </div>
+
+  <!-- 11. Vertical Button Group -->
+  <h4>11. Vertical Button Group</h4>
+  <div class="btn-group-vertical">
+    <button class="btn btn-primary">Item 1</button>
+    <button class="btn btn-primary">Item 2</button>
+    <div class="btn-group">
+      <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        More
+      </button>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Extra 1</a>
+        <a class="dropdown-item" href="#">Extra 2</a>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
